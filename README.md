@@ -20,6 +20,40 @@ Here's how I make sense of the output:
 
 ![alt text](images/1.png)
 
+```mermaid
+graph TD
+    A[1: Firehose of Ideas/Projects/Starters] -->|"~Few Months"| B[2: Thematic Indexes]
+    B -->|"~Few Months"| C[3: Overall Repo Map]
+    C -->|"~Few Months"| D[4: JSON for APIs & Programmatic Access]
+
+    A -->|"github.com/danielrosehill?tab=repositories"| A1[Public Repositories]
+    B -->|"Development-Project-Index"| B1[Organized by Theme]
+    C -->|"Github-Master-Index"| C1[Master Entry Point]
+    D --> D1[Website Frontend]
+    D --> D2[Programmatic Captures]
+
+    style A fill:#ff6b6b
+    style B fill:#4ecdc4
+    style C fill:#45b7d1
+    style D fill:#96ceb4
+
+    classDef lagLabel fill:#fff,stroke:#999,stroke-dasharray: 5 5
+```
+
+### Flow Stages
+
+1. **Firehose of ideas/projects/starters**
+   [Browse all public repositories](https://github.com/danielrosehill?tab=repositories&q=&type=public&language=&sort=)
+
+2. **Thematic indexes**
+   [Development Project Index](https://github.com/danielrosehill/Development-Project-Index)
+
+3. **Overall repo map**
+   [Github Master Index](https://github.com/danielrosehill/Github-Master-Index)
+
+4. **JSON for APIs and programmatic captures**
+   Used for website frontend and programmatic access
+
 ### The Process
 
 **Create:** I generate lots of repos - notes, project starters, updated templates, experimental ideas. Sometimes in bursts, sometimes steadily over time.
